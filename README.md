@@ -45,15 +45,7 @@ $$
 
 
 $$
-\therefore c_x = \pm (a_y b_z - a_z b_y)
-$$
-
-$$
-c_y = \pm (a_z b_x - a_x b_z)
-$$
-
-$$
-c_z = \pm (a_x b_y - a_y b_x) 
+\therefore \quad c_x = \pm (a_y b_z - a_z b_y) \quad c_y = \pm (a_z b_x - a_x b_z) \quad c_z = \pm (a_x b_y - a_y b_x) 
 $$
 
 ### 3. 2D Projection on $(\hat{u}, \hat{v}) \in \{(\hat{i}, \hat{j}), \, (\hat{j}, \hat{k}), \, (\hat{k}, \hat{i})\}$
