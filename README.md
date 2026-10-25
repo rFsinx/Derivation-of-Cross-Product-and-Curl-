@@ -43,8 +43,9 @@ $$
 \implies \pm ( a_x(a_y b_z - a_z b_y) + a_y(a_z b_x - a_x b_z) + a_z(a_x b_y - a_y b_x) ) = 0
 $$
 
+
 $$
-c_x = \pm (a_y b_z - a_z b_y)
+\therefore c_x = \pm (a_y b_z - a_z b_y)
 $$
 
 $$
