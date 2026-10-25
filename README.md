@@ -48,7 +48,7 @@ $$
 \therefore \quad c_x = \pm (a_y b_z - a_z b_y) \ , \quad c_y = \pm (a_z b_x - a_x b_z) \ , \quad c_z = \pm (a_x b_y - a_y b_x) 
 $$
 
-### 3. 2D Projection on $(\hat{u}, \hat{v}) \in \{(\hat{i}, \hat{j}), \, (\hat{j}, \hat{k}), \, (\hat{k}, \hat{i})\}$
+### 3. 2D Projection on $(\hat{u} \ , \quad \hat{v}) \in \{(\hat{i} \ , \quad \hat{j}) \ , \quad (\hat{j} \ , \quad \hat{k}) \ , \ quad (\hat{k} \ , \quad \hat{i})\}$
 
 $$
 \vec{a}_{\text{2D}} = a_u \hat{u} + a_v \hat{v} = (|\vec{a}_{\text{2D}}| \cos\alpha)\hat{u} + (|\vec{a}_{\text{2D}}| \sin\alpha)\hat{v}
