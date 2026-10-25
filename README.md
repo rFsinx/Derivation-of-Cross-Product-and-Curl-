@@ -94,5 +94,7 @@ $$
 $$
 a_z b_x - a_x b_z = c_y \quad (\hat{u}=\hat{k}, \hat{v}=\hat{i}, \hat{w}=\hat{j}) 
 $$
+
+$$
 \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k}
 $$
