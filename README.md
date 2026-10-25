@@ -77,7 +77,7 @@ $$
 
 ### Components of $\vec {c}$
 $$
-\vec c = \sum ( \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} ) \hat{w}
+\vec c = \sum | \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} | \hat{w}
 $$
 
 #### xy-plane
