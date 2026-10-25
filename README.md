@@ -27,7 +27,7 @@ $$
 $$
 
 $$
-= \sqrt{(a_y b_z - a_z b_y)^2 + (a_z b_x - a_x b_z)^2 + (a_x b_y - a_y b_x)^2}
+= \sqrt{(a_x b_y - a_y b_x)^2 + (a_y b_z - a_z b_y)^2 + (a_z b_x - a_x b_z)^2}
 $$
 
 $$
@@ -45,7 +45,13 @@ $$
 
 $$
 c_x = \pm (a_y b_z - a_z b_y)
+$$
+
+$$
 c_y = \pm (a_z b_x - a_x b_z)
+$$
+
+$$
 c_z = \pm (a_x b_y - a_y b_x) 
 $$
 
