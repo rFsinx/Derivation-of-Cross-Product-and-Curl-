@@ -76,18 +76,21 @@ $$
 
 ### Components of $\vec {c}$
 
+#### xy-plane
 $$
-a_x b_y - a_y b_x = c_z & (xy\text{-plane}: \hat{u}=\hat{i}, \, \hat{v}=\hat{j}, \, \hat{w}=\hat{k})
+a_x b_y - a_y b_x = c_z \quad (\hat{u}=\hat{i}, \hat{v}=\hat{j}, \hat{w}=\hat{k})
+$$
+
+#### yz-plane
+$$
+a_y b_z - a_z b_y = c_x \quad (\hat{u}=\hat{j}, \hat{v}=\hat{k}, \hat{w}=\hat{i})
+$$
+
+#### zx-plane
+$$
+a_z b_x - a_x b_z = c_y \qaud (\hat{u}=\hat{k}, \hat{v}=\hat{i}, \hat{w}=\hat{j}) 
 $$
 
 $$
-a_y b_z - a_z b_y = c_x & (yz\text{-plane}: \hat{u}=\hat{j}, \, \hat{v}=\hat{k}, \, \hat{w}=\hat{i})
-$$
-
-$$
-a_z b_x - a_x b_z = c_y & (zx\text{-plane}: \hat{u}=\hat{k}, \, \hat{v}=\hat{i}, \, \hat{w}=\hat{j}) 
-$$
-
-$$
-\therefore \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k}
+\therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k}
 $$
