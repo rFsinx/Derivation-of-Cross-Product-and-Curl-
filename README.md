@@ -52,18 +52,35 @@ $$
 
 $$
 \vec{a}_{\text{2D}} = a_u \hat{u} + a_v \hat{v} = (|\vec{a}_{\text{2D}}| \cos\alpha)\hat{u} + (|\vec{a}_{\text{2D}}| \sin\alpha)\hat{v}
+$$
+
+$$
 \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos\beta)\hat{u} + (|\vec{b}_{\text{2D}}| \sin\beta)\hat{v} 
 $$
 
 $$
-|\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) &= |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \cos\alpha - \cos\beta \sin\alpha) \\ 
-= (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\vec{a}_{\text{2D}}| \sin\alpha)(|\vec{b}_{\text{2D}}| \cos\beta) \\ 
-= a_u b_v - a_v b_u
+|\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) &= |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \cos\alpha - \cos\beta \sin\alpha)
 $$
 
 $$
-a_x b_y - a_y b_x = c_z & (xy\text{-plane}: \hat{u}=\hat{i}, \, \hat{v}=\hat{j}, \, \hat{w}=\hat{k}) \\ 
-a_y b_z - a_z b_y = c_x & (yz\text{-plane}: \hat{u}=\hat{j}, \, \hat{v}=\hat{k}, \, \hat{w}=\hat{i}) \\ 
+= (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\vec{a}_{\text{2D}}| \sin\alpha)(|\vec{b}_{\text{2D}}| \cos\beta)
+$$
+
+$$
+= a_u b_v - a_v b_u
+$$
+
+### Components of $\vec {c}$
+
+$$
+a_x b_y - a_y b_x = c_z & (xy\text{-plane}: \hat{u}=\hat{i}, \, \hat{v}=\hat{j}, \, \hat{w}=\hat{k})
+$$
+
+$$
+a_y b_z - a_z b_y = c_x & (yz\text{-plane}: \hat{u}=\hat{j}, \, \hat{v}=\hat{k}, \, \hat{w}=\hat{i})
+$$
+
+$$
 a_z b_x - a_x b_z = c_y & (zx\text{-plane}: \hat{u}=\hat{k}, \, \hat{v}=\hat{i}, \, \hat{w}=\hat{j}) 
 $$
 
