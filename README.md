@@ -59,7 +59,7 @@ $$
 $$
 
 $$
-|\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) &= |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \cos\alpha - \cos\beta \sin\alpha)
+|\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \cos\alpha - \cos\beta \sin\alpha)
 $$
 
 $$
