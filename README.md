@@ -88,7 +88,7 @@ $$
 
 #### zx-plane
 $$
-a_z b_x - a_x b_z = c_y \qaud (\hat{u}=\hat{k}, \hat{v}=\hat{i}, \hat{w}=\hat{j}) 
+a_z b_x - a_x b_z = c_y \quad (\hat{u}=\hat{k}, \hat{v}=\hat{i}, \hat{w}=\hat{j}) 
 $$
 
 $$
