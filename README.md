@@ -1,4 +1,4 @@
-# Visual-Algebraic-Derivation-of-Divergence-Curl-Multivariable-Calulus-
+# Visual-Algebraic-Derivation-of-Divergence-Curl-
 
 ## Origin of Curl: the Cross Product
 
@@ -7,12 +7,12 @@ $$\vec{a} = a_x \hat{i} + a_y \hat{j} + a_z \hat{k}, \quad \vec{b} = b_x \hat{i}
 ### 1. Magnitude
 
 $$
-|\vec{c}| &= |\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta \\ 
-= |\vec{a}| |\vec{b}| \sqrt{1 - \cos^2\theta} \\ 
-= \sqrt{| \vec{a} |^2 | \vec{b} |^2 - | \vec{a} |^2 | \vec{b} |^2 \cos^2\theta} \\ 
-= \sqrt{| \vec{a} |^2 | \vec{b} |^2 - (\vec{a} \cdot \vec{b})^2} \\ 
-= \sqrt{(a_x^2 + a_y^2 + a_z^2)(b_x^2 + b_y^2 + b_z^2) - (a_x b_x + a_y b_y + a_z b_z)^2} \\ 
-= \sqrt{(a_y b_z - a_z b_y)^2 + (a_z b_x - a_x b_z)^2 + (a_x b_y - a_y b_x)^2} \\ 
+|\vec{c}| = |\vec{a} \times \vec{b}| = |\vec{a}| |\vec{b}| \sin\theta
+= |\vec{a}| |\vec{b}| \sqrt{1 - \cos^2\theta}
+= \sqrt{| \vec{a} |^2 | \vec{b} |^2 - | \vec{a} |^2 | \vec{b} |^2 \cos^2\theta}
+= \sqrt{| \vec{a} |^2 | \vec{b} |^2 - (\vec{a} \cdot \vec{b})^2}
+= \sqrt{(a_x^2 + a_y^2 + a_z^2)(b_x^2 + b_y^2 + b_z^2) - (a_x b_x + a_y b_y + a_z b_z)^2}
+= \sqrt{(a_y b_z - a_z b_y)^2 + (a_z b_x - a_x b_z)^2 + (a_x b_y - a_y b_x)^2}
 = \sqrt{c_x^2 + c_y^2 + c_z^2} 
 $$
 
