@@ -2,7 +2,7 @@
 Handwritten notes from Grades 11–12, digitized and uploaded in October 2026.
 
 <p align="center">
-  <img src="csourcepdf1(curl note archive).jpg" alt="aa" width="35%">
+  <img src="sourcepdf1(curl note archive).jpg" alt="aa" width="35%">
 </p>
 
 ## Cross Product
