@@ -35,8 +35,13 @@ $$
 $$
 
 ### Orthogonality
+
 $$
 \vec{a} \cdot (\vec{a} \times \vec{b}) = 0 \implies a_x c_x + a_y c_y + a_z c_z = 0
+$$
+
+$$
+\implies \pm ( a_x(a_y b_z - a_z b_y) + a_y(a_z b_x - a_x b_z) + a_z(a_x b_y - a_y b_x) ) = 0
 $$
 
 $$
@@ -60,10 +65,6 @@ $$
 $$
 
 $$
-\implies \quad \vec c = \sum |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w}
-$$
-
-$$
 |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha)
 $$
 
@@ -75,10 +76,10 @@ $$
 = a_u b_v - a_v b_u
 $$
 
-Each component of $\vec c$ is about the area of each parallelogram of the surfaces and the direction sign (+/-) dictated by the Right-Hand Rule.
+Each component of $\vec c$ is related to the area of the parallelogram formed by the surface vectors and the sign (+/-) dictated by the Right-Hand Rule.
 
 $$
-\implies \pm ( a_x(a_y b_z - a_z b_y) + a_y(a_z b_x - a_x b_z) + a_z(a_x b_y - a_y b_x) ) = 0
+\implies \quad \vec c = \sum |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w}
 $$
 
 ### Outcome
