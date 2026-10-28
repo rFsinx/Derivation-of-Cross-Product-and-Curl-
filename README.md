@@ -60,7 +60,7 @@ $$
 
 #### Trigonometry and Components
 
-$\hat{w}$: can be one of $\hat{i}, $\hat{j}$, $\hat{k}$$
+$\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$
 subscript w: can be one of x, y, z
 
 $$
