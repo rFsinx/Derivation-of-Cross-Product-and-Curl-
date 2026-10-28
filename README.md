@@ -60,8 +60,15 @@ $$
 
 #### Trigonometry and Components
 
+$\hat{w}$: can be one of $\hat{i}, $\hat{j}$, $\hat{k}$$
+subscript w: can be one of x, y, z
+
 $$
 \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w}
+$$
+
+$$
+\vec {c} = \sum (c_w) \hat{w}
 $$
 
 the magnitude of the above expression is equal to the area of a parallelogram
@@ -75,32 +82,13 @@ $$
 $$
 
 $$
-= a_u b_v - a_v b_u
-$$
-
-Each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
-
-$$
-\implies \quad \vec c = \sum |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w}
-$$
-
-### Outcome
-
-#### xy-plane
-$$
-a_x b_y - a_y b_x = c_z \quad (\hat{u}=\hat{i}, \hat{v}=\hat{j}, \hat{w}=\hat{k})
-$$
-
-#### yz-plane
-$$
-a_y b_z - a_z b_y = c_x \quad (\hat{u}=\hat{j}, \hat{v}=\hat{k}, \hat{w}=\hat{i})
-$$
-
-#### zx-plane
-$$
-a_z b_x - a_x b_z = c_y \quad (\hat{u}=\hat{k}, \hat{v}=\hat{i}, \hat{w}=\hat{j}) 
+= a_u b_v - a_v b_u = c_w \quad \implies \quad \sum (c_w) \hat{w} = (a_u b_v - a_v b_u) \hat{w}
 $$
 
 $$
 \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k}
+$$
+
+Each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
+
 $$
