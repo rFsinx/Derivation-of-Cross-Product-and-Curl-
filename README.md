@@ -1,4 +1,4 @@
-# Visual-Algebraic-Derivation-of-Cross-Product-and-Curl-
+# Visual-Algebraic-Derivation-
 
 ## Origin of Curl: the Cross Product
 
