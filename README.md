@@ -40,11 +40,6 @@ $$
 $$
 
 $$
-\implies \pm ( a_x(a_y b_z - a_z b_y) + a_y(a_z b_x - a_x b_z) + a_z(a_x b_y - a_y b_x) ) = 0
-$$
-
-
-$$
 \therefore \quad c_x = \pm (a_y b_z - a_z b_y) \ , \quad c_y = \pm (a_z b_x - a_x b_z) \ , \quad c_z = \pm (a_x b_y - a_y b_x) 
 $$
 
@@ -82,6 +77,9 @@ $$
 
 Each component of $\vec c$ is about the area of each parallelogram of the surfaces and the direction sign (+/-) dictated by the Right-Hand Rule.
 
+$$
+\implies \pm ( a_x(a_y b_z - a_z b_y) + a_y(a_z b_x - a_x b_z) + a_z(a_x b_y - a_y b_x) ) = 0
+$$
 
 ### Outcome
 
