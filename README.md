@@ -58,13 +58,18 @@ $$
 \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos\beta)\hat{u} + (|\vec{b}_{\text{2D}}| \sin\beta)\hat{v} 
 $$
 
-### Trigonometry and Components
+#### Trigonometry and Components
+
 $$
-\quad |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha)
+\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w}
 $$
 
 $$
-= |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha)
+\implies \quad \vec c = \sum |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w}
+$$
+
+$$
+|\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha)
 $$
 
 $$
@@ -75,10 +80,10 @@ $$
 = a_u b_v - a_v b_u
 $$
 
-### Components of $\vec {c}$
-$$
-\vec c = \sum | \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} | \hat{w}
-$$
+Each component of $\vec c$ is about the area of each parallelogram of the surfaces and the direction sign (+/-) dictated by the Right-Hand Rule.
+
+
+### Outcome
 
 #### xy-plane
 $$
