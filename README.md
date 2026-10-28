@@ -1,4 +1,4 @@
-# Visual-Algebraic-Derivation-of-Divergence-Curl-
+# Visual-Algebraic-Derivation-of-Cross-Product-and-Curl-
 
 ## Origin of Curl: the Cross Product
 
@@ -95,3 +95,79 @@ Each component of $\vec c$ relates to the area of the parallelogram formed by th
 <p align="center">
   <img src="crossproduct.png" alt="aa" width="50%">
 </p>
+
+## Curl
+
+it's formula is neat + can drive it easily $\rightarrow$ but the challenge is about connecting the expression to rotation
+
+$$
+\vec{F} = P(x, y)\hat{i} + Q(x, y)\hat{j} + R(x, y) \hat{k}
+$$
+
+$$
+\nabla = \frac{\partial}{\partial x}\hat{i} + \frac{\partial}{\partial y}\hat{j} + \frac{\partial}{\partial z}\hat{k}
+$$
+
+$$
+\implies \quad \nabla \times \vec{F} = \left( \frac{\partial R}{\partial y} \right) \hat{i} + \left( -\frac{\partial R}{\partial x} \right) \hat{j} + \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) \hat{k}
+$$
+
+### Microscopic Torque and Derivation of Curl Component on xy-plane
+
+each component adds up $\rightarrow$$ if magnitude \neq 0, then rotation exists
+
+#### torque definition 
+
+$\tau = r F \sin\theta \hat{k} = (\vec{r} \times \vec{F})$
+
+Counter-clockwise (CCW) rotation corresponds to $+\hat{k}$, and clockwise (CW) rotation corresponds to $-\hat{k}$.
+
+##### Horizontal Edges (Contribution of $P$):
+  * Bottom edge at $(a, b-\Delta y)$: contribution to rotation $\implies +P(a, b-\Delta y)$
+  * Top edge at $(a, b+\Delta y)$: contribution to rotation $\implies -P(a, b+\Delta y)$
+  * Combined Horizontal Sign (net contribution to rotation): $ [P(a, b-\Delta y) - P(a, b+\Delta y)]\Delta x$
+
+##### Vertical Edges (Contribution of $Q$):
+  * Right edge at $(a+\Delta x, b)$: contribution to rotation $\implies +Q(a+\Delta x, b)$
+  * Left edge at $(a-\Delta x, b)$: contribution to rotation $\implies -Q(a-\Delta x, b)$
+  * Combined Vertical Sign (net contribution to rotation): $[Q(a+\Delta x, b) - Q(a-\Delta x, b)] \Delta y$
+
+
+$$
+\lim_{\Delta x \to 0$ and $\Delta y \to 0} ([P(a, b-\Delta y) - P(a, b+\Delta y)] + [Q(a+\Delta x, b) - Q(a-\Delta x, b)])\Delta x \Delta y \hat{k} = \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dy \, dx \, \hat{k}
+$$
+
+the central differences converge exactly to the partial derivatives at the center point $(a, b)$, and the differential area element becomes $dx = 2\Delta x$, $dy = 2\Delta y$
+
+## Lesson and Limitation
+
+### For Cross Product Derivation: 
+
+- it is important to derive the formula even if it is a definition $\rightarrow$ it builds a deeper intuition about space
+
+
+### For Curl Equation Derivation (although partly unsolved):
+
+- a whole phenomenon (rotation) is actually a sum of microscopic rules
+- a big concept (net torque) can be used to connect with a point rotation (an expression handling a microscopic part)
+- deriving other components, such as $\left( -\frac{\partial R}{\partial x} \right) \hat{j}$, may take similar procedures in derivation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
