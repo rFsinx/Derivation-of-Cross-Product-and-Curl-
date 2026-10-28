@@ -9,6 +9,8 @@ the central differences converge exactly to the partial derivatives at the cente
   <img src="sourcepdf1(curl note archive).jpg" alt="aa" width="50%">
 </p>
 
+## Divergence
+
 <p align="center">
   <img src="sourcepdf2(divergence note archive).jpg" alt="aa" width="50%">
 </p>
