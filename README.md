@@ -91,4 +91,6 @@ $$
 
 Each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
 
-$$
+<p align="center">
+  <img src="crossproduct.png" alt="aa" width="50%">
+</p>
