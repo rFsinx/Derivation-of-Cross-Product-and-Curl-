@@ -1,4 +1,5 @@
 # Summary
+Handwritten notes from Grades 11–12, digitized and uploaded in October 2026.
 
 ## Cross Product
 $$\vec{a} = a_x \hat{i} + a_y \hat{j} + a_z \hat{k}, \quad \vec{b} = b_x \hat{i} + b_y \hat{j} + b_z \hat{k}, \quad \vec{c} = \vec{a} \times \vec{b}$$
