@@ -12,7 +12,6 @@ $$ = \sqrt{(a_x^2 + a_y^2 + a_z^2)(b_x^2 + b_y^2 + b_z^2) - (a_x b_x + a_y b_y +
 $$ = \sqrt{(a_x b_y - a_y b_x)^2 + (a_y b_z - a_z b_y)^2 + (a_z b_x - a_x b_z)^2} $$
 $$ = \sqrt{c_x^2 + c_y^2 + c_z^2} $$
 
-### Orthogonality
 
 $$ \vec{a} \cdot (\vec{a} \times \vec{b}) = 0 \implies a_x c_x + a_y c_y + a_z c_z = 0 $$
 
