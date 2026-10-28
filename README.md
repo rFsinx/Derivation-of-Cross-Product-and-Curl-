@@ -25,7 +25,7 @@ $$ \vec{a}_{\text{2D}} = a_u \hat{u} + a_v \hat{v} = (|\vec{a}_{\text{2D}}| \cos
 
 $$ \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos\beta)\hat{u} + (|\vec{b}_{\text{2D}}| \sin\beta)\hat{v} $$
 
-#### Trigonometry and Components
+#### Trigonometry and Components Based on Right-Hand Rule
 
 $\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$
 
@@ -33,15 +33,15 @@ subscript w: can be one of x, y, z
 
 $$ \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
 
-$$ \vec {c} = \sum (c_w) \hat{w} $$
-
-the magnitude of the above expression is equal to the area of a parallelogram
-
 $$ |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha) $$
 
 $$ = (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\vec{a}_{\text{2D}}| \sin\alpha)(|\vec{b}_{\text{2D}}| \cos\beta) $$
 
-$$ = a_u b_v - a_v b_u = c_w \quad \implies \quad \sum (c_w) \hat{w} = (a_u b_v - a_v b_u) \hat{w} $$
+$$ = a_u b_v - a_v b_u $$
+
+the term $a_u b_v - a_v b_u$ follows Right-Hand Rule $\rightarrow (a_u b_v - a_v b_u) \hat{w} \cdot \vec{c} > 0$ 
+
+thus, the negative sign is ignored
 
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
