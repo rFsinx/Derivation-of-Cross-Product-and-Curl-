@@ -1,6 +1,6 @@
-# Visual-Algebraic-Derivation-of-Cross-Product-and-Curl-
+# Summary
 
-## Origin of Curl: the Cross Product
+## Cross Product
 
 $$\vec{a} = a_x \hat{i} + a_y \hat{j} + a_z \hat{k}, \quad \vec{b} = b_x \hat{i} + b_y \hat{j} + b_z \hat{k}, \quad \vec{c} = \vec{a} \times \vec{b}$$
 
