@@ -1,6 +1,20 @@
 # Summary
 Handwritten notes from Grades 11–12, digitized and uploaded in October 2026.
 
+## Curl
+
+the central differences converge exactly to the partial derivatives at the center point $(a, b)$, and the differential area element becomes $dx = 2\Delta x$, $dy = 2\Delta y$
+
+<p align="center">
+  <img src="sourcepdf1(curl note archive).jpg" alt="aa" width="50%">
+</p>
+
+## Divergence
+
+<p align="center">
+  <img src="sourcepdf2(divergence note archive).jpg" alt="aa" width="50%">
+</p>
+
 ## Cross Product
 $$\vec{a} = a_x \hat{i} + a_y \hat{j} + a_z \hat{k}, \quad \vec{b} = b_x \hat{i} + b_y \hat{j} + b_z \hat{k}, \quad \vec{c} = \vec{a} \times \vec{b}$$
 
@@ -50,20 +64,6 @@ Each component of $\vec c$ relates to the area of the parallelogram formed by th
 
 <p align="center">
   <img src="crossproduct.png" alt="aa" width="50%">
-</p>
-
-## Curl
-
-the central differences converge exactly to the partial derivatives at the center point $(a, b)$, and the differential area element becomes $dx = 2\Delta x$, $dy = 2\Delta y$
-
-<p align="center">
-  <img src="sourcepdf1(curl note archive).jpg" alt="aa" width="50%">
-</p>
-
-## Divergence
-
-<p align="center">
-  <img src="sourcepdf2(divergence note archive).jpg" alt="aa" width="50%">
 </p>
 
 ## Lesson and Limitation
