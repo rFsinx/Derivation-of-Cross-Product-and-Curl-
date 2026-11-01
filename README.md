@@ -54,7 +54,7 @@ $$ = (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\ve
 
 $$ = a_u b_v - a_v b_u $$
 
-$$ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} = \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
+$$ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} = \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w} = \sum \pm \vec {w}$$
 
 because the direction of $\vec {c}$ and $\vec {w}$ is same, their dot product is positive $\rightarrow$ the negative sign is ignored
 
