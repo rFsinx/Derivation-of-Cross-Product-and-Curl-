@@ -15,7 +15,7 @@ the central differences converge exactly to the partial derivatives at the cente
   <img src="sourcepdf2(divergence note archive).jpg" alt="aa" width="50%">
 </p>
 
-## Cross Product
+## Cross Product (deriving the component formula without the distributive property)
 $$\vec{a} = a_x \hat{i} + a_y \hat{j} + a_z \hat{k}, \quad \vec{b} = b_x \hat{i} + b_y \hat{j} + b_z \hat{k}, \quad \vec{c} = \vec{a} \times \vec{b}$$
 
 ### Magnitude
