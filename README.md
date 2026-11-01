@@ -54,7 +54,7 @@ $$ = [ (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\
 
 $$ = (a_u b_v - a_v b_u) \hat{w} $$
 
-$$ \therefore \ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} \quad \rightarrow \quad \pm \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
+$$ \therefore \ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} \quad \rightarrow \quad \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
 
 this shows how each component of $\vec{c}$ is related to each projected component
 
