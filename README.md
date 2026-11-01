@@ -50,11 +50,11 @@ $\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$ but not $\hat{u}, \hat{v}$ 
 
 $$ \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
 
-$$ |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha) $$
+$$ = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha) \hat{w} $$
 
-$$ = (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\vec{a}_{\text{2D}}| \sin\alpha)(|\vec{b}_{\text{2D}}| \cos\beta) $$
+$$ = [ (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\vec{a}_{\text{2D}}| \sin\alpha)(|\vec{b}_{\text{2D}}| \cos\beta) ] \hat{w} $$
 
-$$ = a_u b_v - a_v b_u $$
+$$ = (a_u b_v - a_v b_u) \hat{w} $$
 
 $$ \vec{c} = \pm \sum (a_u b_v - a_v b_u) \hat{w} = \pm \sum (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
 
@@ -66,13 +66,13 @@ $$ c_{w} > 0 , \ \sin(\beta - \alpha) > 0 \quad \rightarrow \quad (a_u b_v - a_v
 
 (ii) $\frac{\pi}{2} < (\beta - \alpha) < \pi$
 
-$$ c_{w} < 0 , \ \sin(\beta - \alpha) <0 \quad \rightarrow \quad (a_u b_v - a_v b_u) < 0 $$
+$$ c_{w} > 0 , \ \sin(\beta - \alpha) > 0 \quad \rightarrow \quad (a_u b_v - a_v b_u) > 0 $$
 
-only $(a_u b_v - a_v b_u)$ satisfy the right-hand rule
+since the signs match in all cases, the ambiguous double sign ($\pm$) is resolved to a positive sign (+)
 
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
-Each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
+each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
 
 <p align="center">
   <img src="crossproduct2dprojection.png" alt="aa" width="100%">
