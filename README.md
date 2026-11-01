@@ -35,8 +35,6 @@ $$ \implies \pm ( a_x(a_y b_z - a_z b_y) + a_y(a_z b_x - a_x b_z) + a_z(a_x b_y 
 
 $$ \therefore \quad c_x = \pm (a_y b_z - a_z b_y) \ , \quad c_y = \pm (a_z b_x - a_x b_z) \ , \quad c_z = \pm (a_x b_y - a_y b_x) $$
 
-(the double signs are taken in the same order)
-
 ### 2D Projection on $(\hat{u}, \hat{v}) \in \{(\hat{i}, \hat{j}) , \ (\hat{j}, \hat{k}) , \ (\hat{k}, \hat{i})\}$
 
 $$ \vec{a}_{\text{2D}} = a_u \hat{u} + a_v \hat{v} = (|\vec{a}_{\text{2D}}| \cos\alpha)\hat{u} + (|\vec{a}_{\text{2D}}| \sin\alpha)\hat{v} $$
@@ -55,6 +53,8 @@ $$ = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\
 $$ = [ (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\vec{a}_{\text{2D}}| \sin\alpha)(|\vec{b}_{\text{2D}}| \cos\beta) ] \hat{w} $$
 
 $$ = (a_u b_v - a_v b_u) \hat{w} $$
+
+about each plane (xy / yz / zx), $c_{w} = \pm (a_u b_v - a_v b_u)$
 
 $$ \vec{c} = \pm \sum (a_u b_v - a_v b_u) \hat{w} = \pm \sum (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
 
