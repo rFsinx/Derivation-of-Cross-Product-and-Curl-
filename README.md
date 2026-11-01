@@ -54,19 +54,19 @@ $$ = [ (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\
 
 $$ = (a_u b_v - a_v b_u) \hat{w} $$
 
-about each plane (xy / yz / zx), $c_{w} = \pm (a_u b_v - a_v b_u)$
+$$ \therefore \ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} \quad \rightarrow \quad \pm \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
 
-$$ \vec{c} = \pm \sum (a_u b_v - a_v b_u) \hat{w} = \pm \sum (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
+about each plane (xy / yz / zx), $c_{w} = \pm (a_u b_v - a_v b_u)$
 
 #### Case Tests
 
-(i) $0 < (\beta - \alpha) < \frac{\pi}{2}$
+(i) $0 < (\beta - \alpha) < \pi$
 
 $$ c_{w} > 0 , \ \sin(\beta - \alpha) > 0 \quad \rightarrow \quad (a_u b_v - a_v b_u) > 0 $$
 
-(ii) $\frac{\pi}{2} < (\beta - \alpha) < \pi$
+(ii) $-\pi < (\beta - \alpha) < 0$
 
-$$ c_{w} > 0 , \ \sin(\beta - \alpha) > 0 \quad \rightarrow \quad (a_u b_v - a_v b_u) > 0 $$
+$$ c_{w} < 0 , \ \sin(\beta - \alpha) < 0 \quad \rightarrow \quad (a_u b_v - a_v b_u) < 0 $$
 
 since the signs match in all cases, the ambiguous double sign ($\pm$) is resolved to a positive sign (+)
 
