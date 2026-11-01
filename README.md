@@ -43,7 +43,7 @@ $$ \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos
 
 #### Trigonometry and Components Based on Right-Hand Rule
 
-$\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$ but not $\hat{u}, \hat{v}$
+$\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$ but not $\hat{u}, \hat{v}$ (right-hand rule)
 
 
 $$ \vec {w} = \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
@@ -61,6 +61,10 @@ because the direction of $\vec {c}$ and $\vec {w}$ is same, their dot product is
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
 Each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
+
+<p align="center">
+  <img src="crossproduct2dprojection.png" alt="aa" width="50%">
+</p>
 
 <p align="center">
   <img src="crossproduct.png" alt="aa" width="50%">
