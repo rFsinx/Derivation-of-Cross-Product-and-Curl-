@@ -56,6 +56,8 @@ $$ = (a_u b_v - a_v b_u) \hat{w} $$
 
 $$ \therefore \ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} \quad \rightarrow \quad \pm \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
 
+this shows how each component of $\vec{c}$ is related to each projected component
+
 about each plane (xy / yz / zx), $c_{w} = \pm (a_u b_v - a_v b_u)$
 
 #### Case Tests
