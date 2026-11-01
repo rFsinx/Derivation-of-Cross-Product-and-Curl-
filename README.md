@@ -42,9 +42,8 @@ $$ \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos
 
 #### Trigonometry and Components Based on Right-Hand Rule
 
-$\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$
+$\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$ but not $\hat{u}, \hat{v}$
 
-subscript w: can be one of x, y, z
 
 $$ \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
 
