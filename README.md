@@ -53,9 +53,9 @@ $$ = (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\ve
 
 $$ = a_u b_v - a_v b_u $$
 
-the term $a_u b_v - a_v b_u$ follows Right-Hand Rule $\rightarrow (a_u b_v - a_v b_u) \hat{w} \cdot \vec{c} > 0$ 
+$$ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} \qquad \because c_x = \pm (a_y b_z - a_z b_y) \ , \quad c_y = \pm (a_z b_x - a_x b_z) \ , \quad c_z = \pm (a_x b_y - a_y b_x) $$
 
-thus, the negative sign is ignored
+from the basic property $\vec {c} \cdot \hat{w} > 0$ , the negative sign is ignored
 
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
