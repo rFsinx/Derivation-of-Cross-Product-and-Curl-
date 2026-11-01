@@ -45,7 +45,7 @@ $$ \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos
 $\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$ but not $\hat{u}, \hat{v}$
 
 
-$$ \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
+$$ \vec {w} = \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
 
 $$ |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha) $$
 
@@ -55,7 +55,7 @@ $$ = a_u b_v - a_v b_u $$
 
 $$ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} = \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
 
-because the direction of $\vec {c}$ and $(\vec {a}_{2D} \times \vec {b}_{2D})$ is same, their dot product is positive $\rightarrow$ the negative sign is ignored
+because the direction of $\vec {c}$ and $\vec {w}$ is same, their dot product is positive $\rightarrow$ the negative sign is ignored
 
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
