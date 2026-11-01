@@ -63,7 +63,7 @@ $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\h
 Each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
 
 <p align="center">
-  <img src="crossproduct2dprojection.png" alt="aa" width="50%">
+  <img src="crossproduct2dprojection.png" alt="aa" width="100%">
 </p>
 
 <p align="center">
