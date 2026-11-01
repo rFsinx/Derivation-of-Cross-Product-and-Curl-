@@ -62,11 +62,11 @@ $$ \vec{c} = \pm \sum (a_u b_v - a_v b_u) \hat{w} = \pm \sum (\vec{a}_{\text{2D}
 
 (i) $0 < (\beta - \alpha) < \frac{\pi}{2}$
 
-$c_{w} > 0$ and $\sin(\beta - \alpha) >0$ $\rightarrow$ (a_u b_v - a_v b_u) > 0
+$$ c_{w} > 0 , \ \sin(\beta - \alpha) > 0 \quad \rightarrow \quad (a_u b_v - a_v b_u) > 0 $$
 
-(i) $\frac{\pi}{2} < (\beta - \alpha) < \pi$
+(ii) $\frac{\pi}{2} < (\beta - \alpha) < \pi$
 
-$c_{w} < 0$ and $\sin(\beta - \alpha) <0$ $\rightarrow$ (a_u b_v - a_v b_u) < 0
+$$ c_{w} < 0 , \ \sin(\beta - \alpha) <0 \quad \rightarrow \quad (a_u b_v - a_v b_u) < 0 $$
 
 only $(a_u b_v - a_v b_u)$ satisfy the right-hand rule
 
