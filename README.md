@@ -15,7 +15,7 @@ the central differences converge exactly to the partial derivatives at the cente
   <img src="sourcepdf2(divergence note archive).jpg" alt="aa" width="50%">
 </p>
 
-## Cross Product (deriving the component formula without the distributive property)
+## Cross Product (deriving the component formula without the distributive property or determinant)
 $$\vec{a} = a_x \hat{i} + a_y \hat{j} + a_z \hat{k}, \quad \vec{b} = b_x \hat{i} + b_y \hat{j} + b_z \hat{k}, \quad \vec{c} = \vec{a} \times \vec{b}$$
 
 ### Magnitude
@@ -55,7 +55,7 @@ $$ = a_u b_v - a_v b_u $$
 
 $$ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} = \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w} \qquad \because c_x = \pm (a_y b_z - a_z b_y) \ , \quad c_y = \pm (a_z b_x - a_x b_z) \ , \quad c_z = \pm (a_x b_y - a_y b_x) $$
 
-from the basic property $\vec {c} \cdot \hat{w} > 0$ , the negative sign is ignored
+from the basic property $\vec {c} \cdot (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) > 0$ , the negative sign is ignored
 
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
