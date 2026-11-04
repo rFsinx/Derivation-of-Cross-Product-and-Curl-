@@ -3,12 +3,12 @@ Handwritten notes from Grades 11–12, digitized and uploaded in October 2026.
 
 ## Deriving 2D curl and divergence from a shrinking square
 
-I placed a small square around a point (a, b) and added up what the field does on each edge.
+I placed a small square around a point (a, b) and added up what the field does on each edge
 
-- Curl: the net circulation around the square comes out to (∂Q/∂x − ∂P/∂y) × area.
-  For a square (Δx = Δy = h), every edge has lever arm h, so net torque = h × circulation.
-  That is why torque is proportional to curl.
-- Divergence: the net outward flux through the four edges comes out to (∂P/∂x + ∂Q/∂y) × area.
+- Curl: the net circulation around the square comes out to (∂Q/∂x − ∂P/∂y) × area
+  For a square (Δx = Δy = h), every edge has lever arm h, so net torque = h × circulation
+  That is why torque is proportional to curl
+- Divergence: the net outward flux through the four edges comes out to (∂P/∂x + ∂Q/∂y) × area
 
 ## Curl
 
@@ -36,7 +36,7 @@ $$ = \sqrt{(a_x^2 + a_y^2 + a_z^2)(b_x^2 + b_y^2 + b_z^2) - (a_x b_x + a_y b_y +
 $$ = \sqrt{(a_x b_y - a_y b_x)^2 + (a_y b_z - a_z b_y)^2 + (a_z b_x - a_x b_z)^2} $$
 $$ = \sqrt{c_x^2 + c_y^2 + c_z^2} $$
 
-from this form, each term is a candidate for the square of each component of $\vec{c}$.
+from this form, each term is a candidate for the square of each component of $\vec{c}$
 
 $$ \vec{a} \cdot (\vec{a} \times \vec{b}) = 0 \implies a_x c_x + a_y c_y + a_z c_z = 0 $$
 
@@ -54,7 +54,6 @@ $$ \vec{b}_{\text{2D}} = b_u \hat{u} + b_v \hat{v} = (|\vec{b}_{\text{2D}}| \cos
 
 $\hat{w}$: can be one of $\hat{i}, \hat{j}, \hat{k}$ but not $\hat{u}, \hat{v}$ (right-hand rule)
 
-
 $$ \vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}} = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| \sin(\beta - \alpha) \hat{w} $$
 
 $$ = |\vec{a}_{\text{2D}}| |\vec{b}_{\text{2D}}| (\sin\beta \ \cos\alpha - \cos\beta \ \sin\alpha) \hat{w} $$
@@ -63,9 +62,7 @@ $$ = [ (|\vec{a}_{\text{2D}}| \cos\alpha)(|\vec{b}_{\text{2D}}| \sin\beta) - (|\
 
 $$ = (a_u b_v - a_v b_u) \hat{w} $$
 
-$$ \therefore \ \vec{c} = \sum \pm (a_u b_v - a_v b_u) \hat{w} \quad \rightarrow \quad \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w}$$
-
-this shows how each component of $\vec{c}$ is related to each projected component
+this shows that each component's candidate is in the form of $(a_u b_v - a_v b_u)$
 
 about each plane (xy / yz / zx), $c_{w} = \pm (a_u b_v - a_v b_u)$
 
@@ -83,7 +80,9 @@ since the signs match in all cases, the ambiguous double sign ($\pm$) is resolve
 
 $$ \therefore \quad \vec{c} = (a_y b_z - a_z b_y)\hat{i} + (a_z b_x - a_x b_z)\hat{j} + (a_x b_y - a_y b_x)\hat{k} $$
 
-each component of $\vec c$ relates to the area of the parallelogram formed by the surface vectors, with the sign (+/-) dictated by the Right-Hand Rule.
+each component of $\vec c$ relates to the area of the parallelogram formed by the projected vectors, with the sign (+/-) dictated by the Right-Hand Rule.
+
+$$ \sum \pm (\vec{a}_{\text{2D}} \times \vec{b}_{\text{2D}}) \hat{w} $$
 
 <p align="center">
   <img src="crossproduct2dprojection.png" alt="aa" width="100%">
