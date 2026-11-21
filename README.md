@@ -7,7 +7,9 @@ I placed a small square around a point (a, b) and added up what the field does o
 
 - Curl: the net circulation around the square comes out to (∂Q/∂x − ∂P/∂y) × area
   For a square (Δx = Δy)
+  
   That is why the curl at point (a, b) is proportional to the net torque exerted on an infinitesimal square object centered at that point
+  
 - Divergence: the net outward flux through the four edges comes out to (∂P/∂x + ∂Q/∂y) × area
 
 ## Curl
