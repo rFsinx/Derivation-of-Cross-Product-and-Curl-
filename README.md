@@ -6,12 +6,11 @@ Handwritten notes from Grades 11–12, digitized and uploaded in October 2026.
 I placed a small square around a point (a, b) and added up what the field does on each edge
 
 - Curl: the net circulation around the square comes out to (∂Q/∂x − ∂P/∂y) × area
-  For a square (Δx = Δy = h), every edge has lever arm h, so net torque = h × circulation
-  That is why torque is proportional to curl
+  For a square (Δx = Δy)
+  That is why the curl at point (a, b) is proportional to the net torque exerted on an infinitesimal square object centered at that point
 - Divergence: the net outward flux through the four edges comes out to (∂P/∂x + ∂Q/∂y) × area
 
 ## Curl
-
 the central differences converge exactly to the partial derivatives at the center point $(a, b)$, and the differential area element becomes $dx = 2\Delta x$, $dy = 2\Delta y$
 
 <p align="center">
